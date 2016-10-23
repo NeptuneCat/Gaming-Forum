@@ -1,0 +1,160 @@
+header {
+	text-align: center;
+	width: 1152px;
+	height: 100px;
+	background-color: #CCA072;
+	color: #FFD700;
+	text-shadow: 1px 0px 2px #1F1811, -1px 0px 2px #1F1811, 0px 1px 2px #1F1811, 0px -1px 2px #1F1811;
+	border: 3px solid #967654;
+	border-bottom: 0px solid transparent;
+	border-radius: 15px 15px 0px 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 10px auto 0px;
+	z-index: 997;
+	box-shadow: 0px -3px 15px -15px rgba(0, 0, 0, 0.6),
+				-3px 0px 15px -15px rgba(0, 0, 0, 0.6),
+				3px 0px 15px -15px rgba(0, 0, 0, 0.6);
+}
+
+nav {
+    border: 3px solid #967654;
+	border-top: 0px solid transparent;
+	background-color: #CCA072;
+	color: #FFFFFF;
+	margin: 0px auto;
+	padding-bottom: 10px;
+    width: 1152px;
+    position: absolute;
+	border-radius: 0px 0px 15px 15px;
+    top: 101px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: 998;
+    box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.6),
+				-3px 0px 15px -15px rgba(0, 0, 0, 0.6),
+				3px 0px 15px -15px rgba(0, 0, 0, 0.6);
+}
+
+main {
+    background-color: #BDD4C6;
+    color: rgb(0, 0, 0);
+	position: relative;
+    padding: 5px 5px 25px 5px;
+	border: 3px solid #967654;
+	border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    width: 1142px;
+    vertical-align: middle;
+    margin: 90px auto 0px;
+    overflow: hidden;
+	z-index: 995;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+#content {
+    background-color: #FFDDB9;
+    float: left;
+	top: 8px;
+    left: 16px;
+	border: 3px solid #D1B598;
+	border-radius: 15px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: left;
+    font-size: 18px;
+    width: 825px;
+    margin: 55px 5px 15px 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);	
+}
+
+#favorites {
+	background-color: #FFDDB9;
+    float: right;
+	top: 8px;
+    left: 16px;
+	border: 3px solid #D1B598;
+	border-radius: 15px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: left;
+    font-size: 18px;
+    width: 250px;
+	height: 500px;
+    margin: 55px 10px 15px 5px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+	background-color: #CCA072;
+    color: #FFFFFF;
+	position: relative;
+    padding: 10px 5px 10px 5px;
+	border: 3px solid #967654;
+	border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    width: 1142px;
+    vertical-align: middle;
+    margin: -20px auto 0px;
+    overflow: hidden;
+	z-index: 996;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+/*-------------------Dropdown Button-------------------------*/
+.dropbtn {
+    background-color: #CCA072;
+    color: white;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #CCA072;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/*-----------------End Dropdown Button------------------------*/
+
+/* Make descriptive divs understood by older browsers */
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
