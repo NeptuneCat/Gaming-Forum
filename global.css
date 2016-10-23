@@ -44,7 +44,7 @@ main {
     background-color: #BDD4C6;
     color: rgb(0, 0, 0);
 	position: relative;
-    padding: 5px 5px 25px 5px;
+    padding: 5px 5px 35px 5px;
 	border: 3px solid #967654;
 	border-radius: 15px;
     text-align: center;
@@ -103,7 +103,7 @@ footer {
     font-size: 18px;
     width: 1142px;
     vertical-align: middle;
-    margin: -20px auto 0px;
+    margin: -30px auto 0px;
     overflow: hidden;
 	z-index: 996;
 	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
